@@ -251,13 +251,13 @@ export default function Home() {
             <p style={{ margin: "8px 0" }}>
               <b>Suggested action:</b> {recommendation.rec}
             </p>
-
             <p style={{ marginTop: 14, fontSize: 12, color: "#555" }}>
               *Demo disclaimer: This MVP is for hackathon demonstration and does not replace clinical judgment.
-            </p>
+            </p>           
+
           </>
         ) : (
-          <p style={{ color: "#555" }}>
+          <p style={{ color: "#555"}}>
             Select a drug + gene (and phenotype if available) to see the decision support output.
           </p>
         )}
